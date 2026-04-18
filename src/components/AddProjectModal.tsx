@@ -55,7 +55,7 @@ export const AddProjectModal: React.FC<AddProjectModalProps> = ({ isOpen, onClos
     return (
         <div className="modal-overlay" onClick={onClose}>
             {/* Modal — glassmorphism inspired by 21st.dev Magic MCP */}
-            <LiquidGlass rounded="2xl" intensity="strong" className="w-full max-w-md" style={{ backdropFilter: 'blur(40px)' }} onClick={(e: React.MouseEvent) => e.stopPropagation()}>
+            <LiquidGlass rounded="2xl" intensity="strong" className="w-full max-w-md" style={{ backdropFilter: 'blur(40px)' }} onClick={((e: React.MouseEvent) => e.stopPropagation()) as () => void}>
 
                 {/* Header */}
                 <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b" style={{ borderColor: 'rgba(255,255,255,0.07)' }}>

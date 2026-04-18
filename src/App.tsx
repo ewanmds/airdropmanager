@@ -5,7 +5,7 @@ import { AirdropListRow } from './components/AirdropListRow';
 import { PortfolioChart } from './components/PortfolioChart';
 import { AddProjectModal } from './components/AddProjectModal';
 import { ShaderBackground } from './components/ShaderBackground';
-import { LiquidGlassFilter, LiquidGlass, LiquidGlassButton, LiquidGlassNav } from './components/LiquidGlass';
+import { LiquidGlass, LiquidGlassNav } from './components/LiquidGlass';
 import { GlassButton } from './components/ui/liquid-glass';
 import { TiltCard } from './components/ui/tilt-card';
 import {
