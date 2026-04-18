@@ -5,7 +5,7 @@ export function ShaderBackground() {
   return (
     <>
       <GlassDistortionFilter />
-      <div className="fixed inset-0 -z-10">
+      <div className="fixed inset-0 -z-10" style={{ transform: 'translateZ(0)' }}>
         <Warp
           style={{ width: "100%", height: "100%" }}
           proportion={0.45}

@@ -141,10 +141,11 @@ export const AirdropCard: React.FC<Props> = ({
             <div
                 className="group relative w-full rounded-2xl overflow-hidden"
                 style={{
-                    backdropFilter: 'blur(32px)',
-                    WebkitBackdropFilter: 'blur(32px)',
-                    background: 'rgba(255,255,255,0.03)',
+                    backdropFilter: 'blur(20px)',
+                    WebkitBackdropFilter: 'blur(20px)',
+                    background: 'rgba(255,255,255,0.07)',
                     boxShadow: '0 8px 32px rgba(0,0,0,0.15), inset 2px 2px 1px rgba(255,255,255,0.14), inset -1px -1px 1px rgba(255,255,255,0.04)',
+                    isolation: 'isolate',
                 }}
             >
                 {/* Glass distortion layer */}
